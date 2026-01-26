@@ -8,7 +8,11 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "pyinstaller (>=6.18.0,<7.0.0)"
 ]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.15"
 
 [tool.poetry.scripts]
 remove = "pycache_remove.main:verify_admin"
