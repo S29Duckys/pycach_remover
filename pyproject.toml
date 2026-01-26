@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [tool.poetry.scripts]
-remove = "pycache_remove.main:main"
+remove = "pycache_remove.main:verify_admin"
 
 [tool.poetry]
 packages = [{include = "pycache_remove", from = "src"}]
