@@ -1,0 +1,21 @@
+[project]
+name = "pycache-remove"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "S29Ducky",email = "nbarasraso@edenschool.fr"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+]
+
+[tool.poetry.scripts]
+remove = "pycache_remove.main:main"
+
+[tool.poetry]
+packages = [{include = "pycache_remove", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
