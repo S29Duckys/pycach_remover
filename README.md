@@ -39,9 +39,3 @@ Enter the directory path to remove __pycache__ folders from: C:\path\to\your\pro
 
 - `pyinstaller` (>= 6.18.0, < 7.0.0)
 
-## Auteur
-
-**S29Ducky** - [nbarasraso@edenschool.fr](mailto:nbarasraso@edenschool.fr)
-
-
-**Note** : Cet outil doit être exécuté avec les privilèges administrateur pour fonctionner correctement.
