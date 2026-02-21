@@ -39,11 +39,12 @@ def remove_pycache_dirs(target_path):
 
 # Main menu
 def main():
-    clear()
-    print("Welcome to the PyCache Remove Tool \n")
-    path = input("Enter the directory path to remove __pycache__ folders from: ")
+    while True:
+        clear()
+        print("Welcome to the PyCache Remove Tool \n")
+        path = input("Enter the directory path to remove __pycache__ folders from: ")
 
-    remove_pycache_dirs(path)
+        remove_pycache_dirs(path)
 
 if __name__ == "__main__":    
     verify_admin()
